@@ -75,6 +75,10 @@ a:hover {
     color:#6a6957;
 }
 
+.primerPrfo{
+    text-indent: 2em;
+}
+
 q {
     quotes: '\201C' '\201D';
     font-style: italic;
@@ -109,4 +113,19 @@ q {
     margin-top: -5px;
     margin-bottom: -25px;
     margin-right: 625px;
+}
+
+#imgCarta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pieFoto{
+    text-align: center;
+}
+
+#enlacesMas {
+    border: dotted #603902;
+    text-align: center;
 }
