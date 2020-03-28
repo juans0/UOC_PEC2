@@ -1,0 +1,19 @@
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link {
+    color: black;
+    background-color: #D3D3D3;
+}
+
+a:hover {
+    color: white;
+    background-color: #FAC754;
+}
