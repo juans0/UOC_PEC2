@@ -1,19 +1,112 @@
-li {
+body {
+    background-color: #f7e990;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Georgia, Times, serif;
+    line-height: 1.5;
+}
+
+.contenedor {
+    background-color: white;
+    width: 90%;
+    max-width: 970px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+header {
+    background-color: #e1d1c1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    padding: 20px 20px 5px 30px;
+}
+
+header > h1 {
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+header > p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navegador{
+    text-align: center;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+#navegador > li {
     list-style-type: none;
     display: inline;
 }
 
-a {
+li > a {
     text-decoration: none;
-    padding: 10px;
+    padding: 20px 30px;
+    background: rgb(251,251,251);
+    background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(211,211,211,1) 50%);
+    color: black;
 }
 
-a:link {
-    color: black;
-    background-color: #D3D3D3;
+#articulo {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#recursos {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 a:hover {
     color: white;
     background-color: #FAC754;
+}
+
+#descripcion {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color:#6a6957;
+}
+
+q {
+    quotes: '\201C' '\201D';
+    font-style: italic;
+    font-size: 1.05em;
+}
+
+.resaltado {
+    color: #603902;
+    font-weight: bold;
+}
+
+#producto {
+    border: solid #cdcdcd;
+    border-width: 0 3px;
+    padding: 30px;
+    margin: 30px 95px 70px 95px;
+}
+
+#iniComilla {
+    float: left;
+    height: 40px;
+    font-size: 30px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    padding-right: 10px;
+}
+
+#finComilla {
+    float: right;
+    height: 40px;
+    font-size: 30px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    margin-right: 625px;
 }
