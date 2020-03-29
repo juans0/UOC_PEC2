@@ -45,7 +45,7 @@ header > p {
     display: inline;
 }
 
-li > a {
+#navegador li > a {
     text-decoration: none;
     padding: 20px 30px;
     background: rgb(251,251,251);
@@ -63,9 +63,9 @@ li > a {
     border-top-right-radius: 7px;
 }
 
-a:hover {
+#navegador li > a:hover {
     color: white;
-    background-color: #FAC754;
+    background: #FAC754;
 }
 
 #descripcion {
@@ -126,6 +126,36 @@ q {
 }
 
 #enlacesMas {
-    border: dotted #603902;
-    text-align: center;
+    border: 0.7px dotted #603902;
+    margin: auto 210px;    
+    padding: 15px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#enlacesMas a {
+    text-decoration: none;
+}
+
+aside > ol {
+    font-size: 16px;
+}
+
+footer {
+    color: #525348;
+    margin: auto 300px auto 280px;
+}
+
+#imgAutora {
+    float: left;
+    margin: 35px 30px 30px 80px;
+}
+
+footer  q {
+    font-style: normal;
+    font-size: 1em;
+}
+
+footer abbr {
+    text-decoration: underline dotted;
 }
