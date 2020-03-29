@@ -15,6 +15,14 @@ body {
     padding: 35px;
 }
 
+main {
+    max-width: 720px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 20px 35px;
+}
+
 header {
     background-color: #e1d1c1;
     font-family: Arial, Helvetica, sans-serif;
@@ -189,4 +197,52 @@ footer q {
 
 footer abbr {
     text-decoration: underline dotted;
+}
+
+#general {
+    margin: 30px;
+}
+
+.recurso {
+    border: #f7e990 solid;
+    margin: 20px 0px;
+    padding: 20px 30px;
+    max-width: 495px;
+}
+
+ol.recurso {
+    list-style: lower-latin;
+}
+
+.revistas {
+    list-style-type: none;
+    /* background: url("../img/usabilidad-icono.png") repeat-y; */
+    padding: 5px 30px;
+    list-style-image: url("../img/usabilidad-icono.png");    
+}
+
+.revistas li {
+    padding: 5px 20px;
+}
+
+ul.recurso {
+    list-style-type: square;
+}
+
+ul.recurso li {
+    padding: 5px;
+}
+
+#fRecursos {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #663a09;
+}
+
+cite {
+    font-style: italic;
+    font-size: 1em;
 }
