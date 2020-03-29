@@ -12,7 +12,7 @@ body {
     width: 90%;
     max-width: 970px;
     margin: 20px auto;
-    padding: 30px;
+    padding: 35px;
 }
 
 header {
@@ -33,7 +33,7 @@ header > p {
     font-weight: bold;
 }
 
-#navegador{
+#navegador {
     text-align: center;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -79,6 +79,36 @@ header > p {
     text-indent: 2em;
 }
 
+.primerPrfo a {
+    text-decoration: overline underline;
+}
+
+.primerPrfo > cite {
+    font-size: 18px;
+    font-style: normal;
+}
+
+h2 {
+    color: #683b04;
+    border-bottom: #683b04 dashed;
+    margin-top: 40px;
+}
+
+h2 + p abbr, .primerPrfo > abbr {
+    font-weight: bold;
+}
+
+#listaAxiomas {
+    list-style-type: none;
+    border-left: solid #683b04;
+    margin: 30px 95px;
+}
+
+#inventor {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
 q {
     quotes: '\201C' '\201D';
     font-style: italic;
@@ -86,7 +116,7 @@ q {
 }
 
 .resaltado {
-    color: #603902;
+    color: #683b04;
     font-weight: bold;
 }
 
@@ -94,7 +124,7 @@ q {
     border: solid #cdcdcd;
     border-width: 0 3px;
     padding: 30px;
-    margin: 30px 95px 70px 95px;
+    margin: 30px 95px 50px 95px;
 }
 
 #iniComilla {
@@ -117,16 +147,16 @@ q {
 
 #imgCarta {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto 20px auto;
 }
 
 #pieFoto{
     text-align: center;
+    margin: 30px 95px;
 }
 
 #enlacesMas {
-    border: 0.7px dotted #603902;
+    border: 0.7px dotted #683b04;
     margin: auto 210px;    
     padding: 15px 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -151,7 +181,7 @@ footer {
     margin: 35px 30px 30px 80px;
 }
 
-footer  q {
+footer q {
     font-style: normal;
     font-size: 1em;
 }
