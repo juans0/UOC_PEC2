@@ -15,14 +15,6 @@ body {
     padding: 35px;
 }
 
-main {
-    max-width: 720px;
-    background-color: white;
-    width: 90%;
-    margin: auto;
-    padding: 20px 35px;
-}
-
 header {
     background-color: #e1d1c1;
     font-family: Arial, Helvetica, sans-serif;
@@ -239,7 +231,7 @@ ul.recurso li {
     padding: 5px;
 }
 
-#fRecursos {
+#fRecursos, #fTecnicas {
     text-align: center;
 }
 
@@ -256,12 +248,40 @@ cite {
 
 /* Estilos Recursos */
 
-li abbr {
+#pagRecursos {
+    max-width: 720px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 20px 35px;
+}
+
+a abbr {
     text-decoration: none;
 }
 
 
 /* Estilos Técnicas */
+
+#pagTecnicas {
+    background-color: white;
+    width: 90%;
+    max-width: 920px;
+    margin: 20px auto;
+    padding: 30px 60px 15px 60px;
+    text-align: justify;
+    /* font-size: 17px; */
+    line-height: 1.3em;
+}
+
+#pagTecnicas > h1 {
+    text-align: right;
+    margin-right: -45px;
+}
+
+dd {
+    margin-bottom: 30px;
+}
 
 dt {
     font-size: 1.4em;
@@ -269,18 +289,34 @@ dt {
     border-bottom: 3px dotted;
     display: inline;
     font-weight: bold;
+    line-height: 2.5em;
 }
+
 dd::first-line {
     text-indent: 2em;
 }
 
 #requisitos {
     list-style-type: none;
-    padding-left: 30px;
+    padding-left: 35px;
+    margin-bottom: -15px;
 }
 
 #requisitos li{
-    /* list-style-image: url(../img/check-icono.png); */
     background: url(../img/check-icono.png) 5px no-repeat;
     padding: 0 50px;
+    margin-right: 100px;
+    line-height: initial;
 }
+
+dl + img {
+    display: block;
+    margin: 0 auto;
+}
+
+dl + img + p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+

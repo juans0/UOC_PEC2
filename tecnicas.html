@@ -3,7 +3,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Tecnicas</title>
         <link href="css/estilos.css" rel="stylesheet" type="text/css">
 
     </head>
@@ -11,13 +11,15 @@
     <body>
         <div>
 
-            <ul id="navegador">
-                <li><a href="articulo.html" id="articulo">ARTÍCULO</a></li>
-                <li><a href="tecnicas.html" id="tecnicas">TÉCNICAS</a></li>
-                <li><a href="recursos.html" id="recursos">RECURSOS</a></li>
-            </ul>
+            <nav>
+                <ul id="navegador">
+                    <li><a href="articulo.html" id="articulo">ARTÍCULO</a></li>
+                    <li><a href="tecnicas.html" id="tecnicas">TÉCNICAS</a></li>
+                    <li><a href="recursos.html" id="recursos">RECURSOS</a></li>
+                </ul>
+            </nav>
 
-            <main>
+            <main id="pagTecnicas">
 
                 <h1>Metodologías y técnicas de DCU</h1>
 
@@ -26,7 +28,7 @@
                     <dt>Test de Usuarios</dt>
                     
                     <dd>
-                        El test de usuarios es la prueba reina del DCU, ya que representa la mejor forma de evaluar la usabilidad de un diseño. Estas pruebas se basan en la observación 
+                        El test de usuarios es la prueba reina del <abbr title="Diseño Centrado en el Usuario">DCU</abbr>, ya que representa la mejor forma de evaluar la usabilidad de un diseño. Estas pruebas se basan en la observación 
                         de cómo un grupo de usuarios llevan a cabo una serie de tareas encomendadas por el evaluador, analizando los problemas de usabilidad con los que se encuentran
                                                     
                     <p class="primerPrfo">Según Kuniavsky (2003), algunos requisitos que deben cumplir las tareas encomendadas al participante son:</p>
@@ -43,21 +45,31 @@
                     <dt>Evaluación Heurística</dt>
 
                     <dd>
-                        En esta técnica varios expertos inspeccionan y analizan el diseño en busca de potenciales problemas de usabilidad, comprobando para ello el cumplimiento de principios de diseño usable (principios heurísticos) previamente establecidos. Estos principios de diseño o heurísticas son directrices que establecen requisitos que debe cumplir el diseño con el fin de facilitar su comprensión y uso por el usuario final.
+                        En esta técnica varios expertos inspeccionan y analizan el diseño en busca de potenciales problemas de usabilidad, comprobando para ello el cumplimiento de 
+                        principios de diseño usable (principios heurísticos) previamente establecidos. Estos principios de diseño o &ldquo;heurísticas&rdquo; son directrices que establecen 
+                        requisitos que debe cumplir el diseño con el fin de facilitar su comprensión y uso por el usuario final.
                     </dd>
 
                     <dt>Card Sorting</dt>
                     
                     <dd>
-                        Esta técnica consiste en solicitar a un grupo de participantes - que como en el caso del test de usuarios deben tener un perfil acorde con la audiencia a la que se dirige el sitio- que agrupen los conceptos representados en cada tarjeta por su similitud semántica. El objetivo es, por tanto, identificar qué conceptos, de los representados en cada tarjeta, tienen relación semántica entre sí, e incluso cuál es el grado de esa relación.
-                    
-                        <p>Participante agrupando tarjetas. Fuente (García-Gómez; 2005).</p>
+                        Esta técnica consiste en solicitar a un grupo de participantes - que como en el caso del test de usuarios deben tener un perfil acorde con la audiencia a la que 
+                        se dirige el sitio- que agrupen los conceptos representados en cada tarjeta por su similitud semántica. El objetivo es, por tanto, identificar qué conceptos, de 
+                        los representados en cada tarjeta, tienen relación semántica entre sí, e incluso cuál es el grado de esa relación.
                     </dd>
 
+                </dl>
+                    
+                <img src="./img/tarjetas.jpg" alt="Vista de participante agrupando tarjetas" title="Agrupando conceptos similares" width="360" height="270">
+                    
+                <p>Participante agrupando tarjetas. Fuente (<em>García-Gómez; 2005</em>).</p>
+                    
+                <dl>
                     <dt>Eye-Tracking</dt>
 
                     <dd>
-                        Un conjunto de tecnologías (hardware y software) que permiten monitorizar y registrar la forma en la que una persona mira una determinada escena o imagen, en concreto en qué áreas fija su atención, durante cuánto tiempo y qué orden sigue en su exploración visual
+                        Un conjunto de tecnologías (<em lang="en">hardware</em> y <em lang="en">software</em>) que permiten monitorizar y registrar la forma en la que una persona mira una determinada escena o imagen, 
+                        en concreto en qué áreas fija su atención, durante cuánto tiempo y qué orden sigue en su exploración visual
                     </dd>
                         
                     <dt>Etnografía</dt>
@@ -66,18 +78,15 @@
                         Constituye una rama de estudio de la antropología que busca estudiar y describir científicamente la conducta, el comportamiento, las creencias y las acciones de los usuarios de una sociedad y una cultura específica. El investigador convive con los sujetos de la investigación para comprender, por propia experiencia y observación directa, el ámbito sociocultural donde están inmersos.
                     </dd>
 
-                </dl>
+                </dl>            
 
             </main>
             
-            <footer>
-                Extraído de Informe APEI de Usabilidad
-                Icons made by Google from www.flaticon.com
+            <footer id="fTecnicas">
+                <p>Extraído de <a href="http://www.nosolousabilidad.com/manual/index.htm"><cite>Informe<abbr title="Asociación Profesional de Especialistas en Información"> APEI</abbr> 
+                    de Usabilidad</cite></a></p>
+                <p lang="en">Icons made by Google from <a href="https://www.flaticon.com/"><cite>www.flaticon.com</cite></a></p>
             </footer>
-
-            <!-- Enlaces pie:
-            http://www.nosolousabilidad.com/manual/index.htm
-            https://www.flaticon.com/ -->
 
         </div>
     </body>
