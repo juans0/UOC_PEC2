@@ -111,9 +111,9 @@ h2 + p abbr, .primerPrfo > abbr {
     margin: 30px 95px;
 }
 
-#inventor {
+.nombre {
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 q {
@@ -240,7 +240,7 @@ a {
     color: #683b04;
 }
 
-cite {
+footer cite {
     font-style: italic;
     font-size: 1em;
 }
